@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+clrscr();
+printf("\n--------");
+printf("\nl\t|");
+printf("\nR\t|");
+printf("\nN\t|");
+printf("\nw\t|");
+printf("\nl\t|");
+printf("\n--------");
+getch();
+}
