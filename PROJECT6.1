@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+ int n;
+ int c=0;
+
+ clrscr();
+
+ printf("enter any number  : ");
+ scanf("%d",&n);
+
+ while(n>0)
+ {
+ n=n/10;
+
+ c++;
+ }
+ printf("total digits : %d",c);
+
+ getch();
+}
